@@ -9,10 +9,13 @@ The system would email support@testdomain.com with an excel sheet attachments of
 This would allow us to easily know who to contact for renewals
 
 -----------
+
 NOTE!!!
+
 ALL DOCUMENTS USE TODAY'S DATE AS mm_dd_yyyy. If something is not run make sure those have been updated.
 
 ALL DATA IS FAKE FOR THE SAKE OF DATA PROTECTION
+
 -----------
 Important Documents + explanation:
 
@@ -32,11 +35,17 @@ TechDoctors Master List - Yearly.csv | Customers that renewed Yearly
 Run_GET_Renewals.bat | Meant for windows machines to automatically run the files certain
 
 -----------
+
 Things created by scripts:
+
 Need_Fixed_TD.csv | Customers missing from the Syncro sheet or the Master sheet and notates which one is missing
+
 Old_Renew_Soon.csv | Customers that are renewing as of last time program was ran
+
 Renew_Soon.csv | Customers that are renewing soon
+
 -----------
+
 SETUP (This was done in Pycharm so the environment variable section may be different depending on IDE)
 
 
@@ -76,7 +85,9 @@ To Run:
 Make sure to have updated Master list and have the updated Syncro Assets files with current date.
 
 Run CSV_Manipulator.py
+
 -----------
+
 Missing Features:
 Automated file downloading.
 Automated system running
