@@ -55,6 +55,9 @@ CSV_Manipulator.py Line 21 | EMAIL_PROVIDER = os.environ.get("EMAIL_PROVIDER", "
 
 CSV_Manipulator.py Line 21 | EMAIL_PROVIDER = os.environ.get("EMAIL_PROVIDER", "google") for Gmail
 
+CSV_Manipulator.py Line 228 | set the receiver email
+
+CSV_Manipulator.py Line 233 | Set the sender email
 
 Add protected environment variables with the services depending on which service is used to send email:
 
