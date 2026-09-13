@@ -225,12 +225,12 @@ def main():
             """
 
         send_email(
-            receiver_emails=["support@buriantech.com"],
+            receiver_emails=["support@testdomain.com .com"],
             subject="Automated Tech Doctor Report",
             text_content=text_content,
             html_content=html_content,
             attachment_path=attachment_path,
-            sender_email="info@buriantech.com",
+            sender_email="info@testdomain.com .com",
             provider=EMAIL_PROVIDER,
         )
 
